@@ -4,6 +4,6 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return "Web App with Python Flask!"
+    return "Halló heimur(Nú í íslenskum texta)"
 
 app.run(host='0.0.0.0', port=81)
